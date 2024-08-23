@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+    .box {
+    width: 200px;            /* Width of the content area */
+    padding: 20px;           /* Space between the content and the border */
+    border: 15px solid #3498db; /* Border surrounding the padding */
+    margin: 10px;            /* Space outside the border */
+    background-color: #e74c3c; /* Background color of the content and padding area */
+    color: white;            /* Text color */
+}
+
+/* Styling for the content */
+.box p {
+    margin: 10px;               /* Remove default margin of the paragraph */
+}
+    </style>
+<body>
+    <div class="box">
+        <p>This is the content inside the box.</p>
+    </div>
+
+   
+</body>
+</html>
